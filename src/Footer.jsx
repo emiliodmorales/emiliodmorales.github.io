@@ -24,8 +24,7 @@ const githubURL = "https://github.com/Elmster401";
 
 function Footer() {
     return (
-        <>
-            <p className="read-the-docs">Check out my socials</p>
+        <div className="Footer">
             <div>
                 <a href={linkedinURL} target="_blank">
                     <img
@@ -42,7 +41,8 @@ function Footer() {
                     />
                 </a>
             </div>
-        </>
+            <p className="read-the-docs">Emilio Morales 2024</p>
+        </div>
     );
 }
 

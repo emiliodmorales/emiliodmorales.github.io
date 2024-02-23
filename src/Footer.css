@@ -14,8 +14,15 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>. */
 
+.Footer {
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+    right: 1em;
+}
+
 .logo {
-    height: 6em;
+    height: 2em;
     padding: 1.5em;
     will-change: filter;
     transition: filter 300ms;
