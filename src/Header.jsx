@@ -20,11 +20,33 @@ import "./Header.css";
 
 function Header() {
     return (
-        <>
-            <h1>Emilio Morales</h1>
-            <h2>Computer Science Student</h2>
-            <h3>Virginia Tech 2021-2025</h3>
-        </>
+        <div className="Header">
+            <a href="/">
+                <h2 className="name">Emilio Morales</h2>
+            </a>
+            <ul>
+                <li>
+                    <a href="/" className="link">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/" className="link">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="/" className="link">
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="/" className="link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
     );
 }
 

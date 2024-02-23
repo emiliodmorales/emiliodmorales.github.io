@@ -13,3 +13,34 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>. */
+
+.Header {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    right: 1em;
+}
+
+.name {
+    float: inline-start;
+    padding-left: 1em;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.link {
+    padding-right: 1em;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.link:hover {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+ul {
+    float: inline-end;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
