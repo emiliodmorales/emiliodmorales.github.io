@@ -24,24 +24,20 @@ const githubURL = "https://github.com/Elmster401";
 
 function Footer() {
     return (
-        <div className="Footer">
+        <div class="Footer">
             <div>
                 <a href={linkedinURL} target="_blank">
                     <img
                         src={linkedinLogo}
-                        className="logo"
+                        class="logo"
                         alt="LinkedId Profile"
                     />
                 </a>
                 <a href={githubURL} target="_blank">
-                    <img
-                        src={githubLogo}
-                        className="logo"
-                        alt="Github Profile"
-                    />
+                    <img src={githubLogo} class="logo" alt="Github Profile" />
                 </a>
             </div>
-            <p className="read-the-docs">Emilio Morales 2024</p>
+            <p class="read-the-docs">Emilio Morales 2024</p>
         </div>
     );
 }
