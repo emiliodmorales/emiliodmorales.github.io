@@ -1,5 +1,5 @@
 {
-    /* Sets up the main page of the site
+    /* Defines the header of every page
 Copyright (C) 2024  Emilio Morales
 
 This program is free software: you can redistribute it and/or modify
@@ -16,17 +16,16 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>. */
 }
 
-import "./App.css";
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
+import "./Header.css";
 
-function App() {
+function Header() {
     return (
         <>
-            <Header />
-            <Footer />
+            <h1>Emilio Morales</h1>
+            <h2>Computer Science Student</h2>
+            <h3>Virginia Tech 2021-2025</h3>
         </>
     );
 }
 
-export default App;
+export default Header;
