@@ -24,6 +24,8 @@ function App() {
     return (
         <>
             <Header />
+            <h2>Computer Science Student</h2>
+            <h3>Virginia Tech 2021-2025</h3>
             <Footer />
         </>
     );
