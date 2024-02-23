@@ -1,6 +1,8 @@
 import linkedinLogo from "./assets/linkedin.svg";
+import githubLogo from "./assets/github.svg";
 import "./App.css";
 const linkedinURL = "https://www.linkedin.com/in/emilio-morales-798b7522b/";
+const githubURL = "https://github.com/Elmster401";
 
 function App() {
     return (
@@ -11,7 +13,18 @@ function App() {
             <p className="read-the-docs">Check out my socials</p>
             <div>
                 <a href={linkedinURL} target="_blank">
-                    <img src={linkedinLogo} className="logo" alt="Vite logo" />
+                    <img
+                        src={linkedinLogo}
+                        className="logo"
+                        alt="LinkedId Profile"
+                    />
+                </a>
+                <a href={githubURL} target="_blank">
+                    <img
+                        src={githubLogo}
+                        className="logo"
+                        alt="Github Profile"
+                    />
                 </a>
             </div>
         </>
