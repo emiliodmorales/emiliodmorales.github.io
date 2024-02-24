@@ -19,8 +19,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>. */
 import "./Footer.css";
 import linkedinLogo from "./assets/linkedin.svg";
 import githubLogo from "./assets/github.svg";
+import emailLogo from "./assets/email.svg";
 const linkedinURL = "https://www.linkedin.com/in/emilio-morales-798b7522b/";
 const githubURL = "https://github.com/Elmster401";
+const email = "emorales@vt.edu";
 
 function Footer() {
     return (
@@ -35,6 +37,9 @@ function Footer() {
                 </a>
                 <a href={githubURL} target="_blank">
                     <img src={githubLogo} class="logo" alt="Github Profile" />
+                </a>
+                <a href={"mailto:" + email} target="_blank">
+                    <img src={emailLogo} class="logo" alt="Contact me!" />
                 </a>
             </div>
             <p class="read-the-docs">Emilio Morales 2024</p>
