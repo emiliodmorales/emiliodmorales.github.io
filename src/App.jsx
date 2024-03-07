@@ -21,7 +21,7 @@ import linkedinLogo from "./assets/linkedin.svg";
 import githubLogo from "./assets/github.svg";
 import emailLogo from "./assets/email.svg";
 const linkedinURL = "https://www.linkedin.com/in/emilio-morales-798b7522b/";
-const githubURL = "https://github.com/Elmster401";
+const githubURL = "https://github.com/emiliodmorales";
 const email = "emorales@vt.edu";
 
 function App() {
